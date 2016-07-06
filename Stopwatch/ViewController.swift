@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    // Global Scope
+    
 
     // Outlets --
     @IBOutlet weak var timerLabel: UILabel! // Displays timer
