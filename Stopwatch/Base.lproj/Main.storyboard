@@ -25,7 +25,11 @@
                                 </constraints>
                                 <items>
                                     <navigationItem title="Stop Watch" id="m7p-tx-DqY">
-                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="Mck-vO-azS"/>
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="Mck-vO-azS">
+                                            <connections>
+                                                <action selector="play:" destination="BYZ-38-t0r" id="CWx-G0-OeI"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>

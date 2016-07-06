@@ -10,10 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    // Outlets
-    @IBOutlet weak var timerLabel: UILabel!
+    // Outlets --
+    @IBOutlet weak var timerLabel: UILabel! // Displays timer
     
-    //Actions
+    //Actions --
+    @IBAction func play(sender: AnyObject) {
+        
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
