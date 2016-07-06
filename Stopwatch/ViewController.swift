@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     // Outlets
     @IBOutlet weak var timerLabel: UILabel!
     
+    //Actions
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
