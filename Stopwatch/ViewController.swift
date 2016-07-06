@@ -21,14 +21,14 @@ class ViewController: UIViewController {
     // Helper Functions
     func increaseTimer() {
         
-        time++
+        time += 1
         
     }
     
     //Actions --
     @IBAction func play(sender: AnyObject) {
         
-        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("increaseTimer"), userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.increaseTimer), userInfo: nil, repeats: true)
         
     }
     
