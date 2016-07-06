@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     // Global Scope
-    
+    var timer = NSTimer()
 
     // Outlets --
     @IBOutlet weak var timerLabel: UILabel! // Displays timer
