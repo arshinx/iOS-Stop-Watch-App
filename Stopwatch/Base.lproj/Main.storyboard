@@ -33,6 +33,8 @@
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
                                     <barButtonItem systemItem="stop" id="ieZ-HA-2Cr"/>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="7cC-ON-pqp"/>
+                                    <barButtonItem systemItem="pause" id="kwa-Is-BFm"/>
                                 </items>
                             </toolbar>
                         </subviews>
