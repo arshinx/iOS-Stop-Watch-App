@@ -51,7 +51,11 @@
                                 <items>
                                     <barButtonItem systemItem="stop" id="ieZ-HA-2Cr"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="7cC-ON-pqp"/>
-                                    <barButtonItem systemItem="pause" id="kwa-Is-BFm"/>
+                                    <barButtonItem systemItem="pause" id="kwa-Is-BFm">
+                                        <connections>
+                                            <action selector="pause:" destination="BYZ-38-t0r" id="S0v-iA-m34"/>
+                                        </connections>
+                                    </barButtonItem>
                                 </items>
                             </toolbar>
                         </subviews>
