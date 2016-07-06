@@ -63,6 +63,9 @@
                             <constraint firstItem="g0t-hZ-n6T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="k6d-1G-Dxz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="timerLabel" destination="zZ6-t8-QEZ" id="cGw-h1-ExS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
