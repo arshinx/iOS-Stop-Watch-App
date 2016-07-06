@@ -21,6 +21,9 @@ class ViewController: UIViewController {
     @IBAction func pause(sender: AnyObject) {
     }
     
+    @IBAction func stop(sender: AnyObject) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
