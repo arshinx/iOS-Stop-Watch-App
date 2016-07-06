@@ -37,9 +37,21 @@
                                     <barButtonItem systemItem="pause" id="kwa-Is-BFm"/>
                                 </items>
                             </toolbar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zZ6-t8-QEZ">
+                                <rect key="frame" x="185.5" y="209.5" width="230" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="Q64-BO-ECH"/>
+                                    <constraint firstAttribute="height" constant="180" id="RP1-ZJ-gsa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="50"/>
+                                <color key="textColor" red="0.87843137250000003" green="0.6705882353" blue="0.094117647060000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="zZ6-t8-QEZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9MI-3N-Uno"/>
+                            <constraint firstItem="zZ6-t8-QEZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q90-u4-405"/>
                             <constraint firstItem="g0t-hZ-n6T" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="bny-Gj-xDy"/>
                             <constraint firstAttribute="trailingMargin" secondItem="g0t-hZ-n6T" secondAttribute="trailing" constant="-20" id="eBS-WO-M30"/>
                             <constraint firstItem="g0t-hZ-n6T" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="k6d-1G-Dxz"/>
