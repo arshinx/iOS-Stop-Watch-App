@@ -10,20 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // Outlets
     @IBOutlet weak var timerLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-        
-    
     }
 
 
