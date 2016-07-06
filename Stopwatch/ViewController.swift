@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         
         time += 1
         
+        timerLabel.text = String(time)
+        
     }
     
     //Actions --
