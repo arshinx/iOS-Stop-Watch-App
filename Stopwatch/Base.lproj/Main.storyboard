@@ -32,7 +32,7 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQG-vi-vEd">
                                 <rect key="frame" x="0.0" y="556" width="600" height="44"/>
                                 <items>
-                                    <barButtonItem title="Item" id="ieZ-HA-2Cr"/>
+                                    <barButtonItem systemItem="stop" id="ieZ-HA-2Cr"/>
                                 </items>
                             </toolbar>
                         </subviews>
