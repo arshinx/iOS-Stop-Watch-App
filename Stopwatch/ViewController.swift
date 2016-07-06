@@ -12,9 +12,18 @@ class ViewController: UIViewController {
     
     // Global Scope
     var timer = NSTimer()
+    
+    var time = 0
 
     // Outlets --
     @IBOutlet weak var timerLabel: UILabel! // Displays timer
+    
+    // Helper Functions
+    func increaseTimer() {
+        
+        time++
+        
+    }
     
     //Actions --
     @IBAction func play(sender: AnyObject) {
